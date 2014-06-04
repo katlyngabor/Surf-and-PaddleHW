@@ -1,1 +1,20 @@
-style.css
+
+div{
+	width:500px;
+	height:500px;
+	font-family: 'PT Sans', sans-serif;
+	color:black;
+	font-size: 100px;
+	background-color: green;
+	position: absolute;
+}
+
+.FirstLine{
+	color:white;
+	font-size: 50px;
+}
+
+.container{
+	background-image: 
+
+}
