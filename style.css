@@ -1,20 +1,25 @@
-
-div{
-	width:500px;
-	height:500px;
-	font-family: 'PT Sans', sans-serif;
-	color:black;
-	font-size: 100px;
-	background-color: green;
-	position: absolute;
+div#wrapperHeader {
+ width:100%;
+ height:400px; /* height of the background image? */
+ background:url(images/header.jpg);
 }
 
-.FirstLine{
-	color:white;
-	font-size: 50px;
-}
+div#titleText{
+font-family: 'PT Sans', sans-serif;	
+color:white;
+font-size: 80px;
+text-align: center;
+padding-top: 150px;  
+ }
 
-.container{
-	background-image: 
+ div#main-body {
+ 	width: 800px;
+ 	height:800px;
+ 	border-style: dotted;
+ 	border-size: 2px;
+ 	border-color: red;
+ 	margin-left: 125px;
+ 	margin-right: 20px;
+ }
 
-}
+
