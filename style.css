@@ -14,19 +14,18 @@
 
 .logo-text {
 	float:left;
-	color: white;
-	margin-left: 10px;
+	color: gray;
+	margin-left: 15px;
 }
 
 img.logo-image {
 	float: left;
 	margin-left: 100px;
+	margin-top: -14px;
 }
 
 #header-links {
-color: white;
-border-style: solid;
-border-color: red;
+color: gray;
 width: 186px;
 height: 38px;
 float: right;
@@ -52,22 +51,36 @@ color:white;
 font-size: 80px;
 text-align: center;
 padding-top: 150px;
-padding-bottom: 50px;
 width:100%;
 height: 200px;
-border-style: solid;  
-border-color: black;
  }
 
+ .tagline {
+ 	color:black;
+ 	font-size: 12px;
+ 	margin-top: -20px;
+ }
 
-div#main-body {
- 	width: 800px;
+ /*******Body******/
+
+#main-body {
+ 	width: 1000px;
  	height:800px;
- 	border-style: dotted;
- 	border-size: 2px;
- 	border-color: red;
  	margin-left: 125px;
  	margin-right: 20px;
  }
 
+.main-text {
+	width:700px;
+	height: 600px;
+	background-color:red;
+	float: left;
+}
 
+.side-bar {
+	width:300px;
+	height: 600px;
+	float:right;
+	background: rgba(255, 0, 0, 0.2)
+
+}
