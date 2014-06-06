@@ -6,6 +6,46 @@
  border-color: blue;
 }
 
+#company-info {
+	float:left;
+	width: 100%;
+	margin-top: 25px;
+}
+
+.logo-text {
+	float:left;
+	color: white;
+	margin-left: 10px;
+}
+
+img.logo-image {
+	float: left;
+	margin-left: 100px;
+}
+
+#header-links {
+color: white;
+border-style: solid;
+border-color: red;
+width: 186px;
+height: 38px;
+float: right;
+margin-right:100px;
+}
+ .search-text {
+ 	display: inline-block;
+}
+
+ .about-text {
+ 	display: inline-block;
+ 	margin-right: 10px;
+ }
+
+.search-icon {
+	float:right;
+	margin-right: 20px;
+}
+
 #titleText {
 font-family: 'PT Sans', sans-serif;	
 color:white;
@@ -19,37 +59,6 @@ border-style: solid;
 border-color: black;
  }
 
-
-.logo-text {
-	float:left;
-	margin-left:200px;
-	margin-top: 10px;
-	color: white;
-}
-
-
-#header-links {
-color: white;
-border-style: solid;
-border-color: red;
-width: 186px;
-height: 38px;
-float: right;
-margin-right:10px;
-}
- .search-text {
- 	display: inline-block;
-}
-
- .about-text {
- 	display: inline-block;
- }
-
-.search-icon {
-	float:right;
-	margin-right: 10px;
-
-}
 
 div#main-body {
  	width: 800px;
