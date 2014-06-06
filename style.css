@@ -65,22 +65,65 @@ height: 200px;
 
 #main-body {
  	width: 1000px;
- 	height:800px;
+ 	height:900px;
  	margin-left: 125px;
  	margin-right: 20px;
+ 	font-family: 'PT Sans', sans-serif;
+ }
+
+ h1 {
+ 	font-size:50px;
+ 	margin:5px;
+ }
+
+ .tiny-headshot {
+ 	width:25px;
+ 	float:left;
+ 	margin-left: 8px;
+ }
+
+.blogger-name {
+	font-family: 'PT Sans', sans-serif;	
+	font-size: 16px;
+	float:left;
+	margin-top: 8px;
+	margin-left: 12px;
+ }
+
+ .post-details {
+ 	font-size: 12px;
+ 	float:left;
+ 	margin-top:12px;
+ 	margin-left: 8px;
+
+ }
+
+ p {
+ 	font-size: 15px;
+ 	margin-top:20px;
+ 	clear: both;
  }
 
 .main-text {
-	width:700px;
+	width:600px;
 	height: 600px;
 	background-color:red;
 	float: left;
 }
 
 .side-bar {
-	width:300px;
+	width:400px;
 	height: 600px;
 	float:right;
 	background: rgba(255, 0, 0, 0.2)
+}
+
+.contact {
+	margin-top:33.5px;
+	height: 148px;
+
+}
+
+.headshot {
 
 }
