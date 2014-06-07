@@ -2,8 +2,6 @@
  width:100%;
  height:400px; 
  background:url(images/header.jpg);
- border-style: dotted;
- border-color: blue;
 }
 
 #company-info {
@@ -61,15 +59,14 @@ height: 200px;
  	margin-top: -20px;
  }
 
- /*******Body******/
+ /*******Main Body******/
 
 #main-body {
  	width: 1000px;
- 	height:1000px;
+ 	height:900px;
  	margin-left: 125px;
  	margin-right: 20px;
  	font-family: 'PT Sans', sans-serif;
- 	border: 2px solid red;
  }
 
  h1 {
@@ -116,11 +113,11 @@ blockquote {
 	width: 300px;
 }
 
- 
  button {
  	background-color:#a3b3bf;
  	color:white;
 	border:none;
+	margin-left:10px;
  }
 
  button:hover {
@@ -131,8 +128,10 @@ blockquote {
 } 
 
 .comments-button {
+	float:left;
 	height: 35px;
 	width: 175px;
+	margin-left: 0px;
 	
 }
 
@@ -199,6 +198,8 @@ border: none;
 	float: left;
 }
 
+/*****SIDE BAR******/
+
 .side-bar {
 	width:400px;
 	height: 600px;
@@ -208,10 +209,22 @@ border: none;
 
 .contact {
 	margin-top:33.5px;
-	height: 148px;
-
+	text-align: center;
 }
 
-.headshot {
+.anne-marie {
+	color:#106db3;
+	font-size: 20px;
+}
 
+a.twitter:link {
+	color:#083452
+}
+
+a.facebook:link {
+	color:#083452;
+}
+
+a.facebook:link {
+	color: #083452
 }
