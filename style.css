@@ -5,21 +5,21 @@
 }
 
 #company-info {
-	float:left;
-	width: 100%;
-	margin-top: 25px;
+float:left;
+width: 100%;
+margin-top: 25px;
 }
 
 .logo-text {
-	float:left;
-	color: gray;
-	margin-left: 15px;
+float:left;
+color: gray;
+margin-left: 15px;
 }
 
 img.logo-image {
-	float: left;
-	margin-left: 100px;
-	margin-top: -14px;
+float: left;
+margin-left: 100px;
+margin-top: -14px;
 }
 
 #header-links {
@@ -39,12 +39,12 @@ margin-right:100px;
  }
 
 .search-icon {
-	float:right;
-	margin-right: 20px;
+float:right;
+margin-right: 20px;
 }
 
 #titleText {
-font-family: 'PT Sans', sans-serif;	
+font-family: 'PT Sans', sans-serif;
 color:white;
 font-size: 80px;
 text-align: center;
@@ -62,11 +62,19 @@ height: 200px;
  /*******Main Body******/
 
 #main-body {
- 	height:900px;
- 	margin-left: 125px;
- 	margin-right: 20px;
  	font-family: 'PT Sans', sans-serif;
+	width: 1300px;
+	margin: 0 auto;
+ 
  }
+
+.main-text {
+width:600px;
+height: 600px;;
+float: left;
+margin-left:100px;
+clear:both;
+}
 
  h1 {
  	font-size:50px;
@@ -81,11 +89,11 @@ height: 200px;
  }
 
 .blogger-name {
-	font-family: 'PT Sans', sans-serif;	
-	font-size: 16px;
-	float:left;
-	margin-top: 8px;
-	margin-left: 12px;
+font-family: 'PT Sans', sans-serif;
+font-size: 16px;
+float:left;
+margin-top: 8px;
+margin-left: 12px;
  }
 
  .post-details {
@@ -103,57 +111,56 @@ height: 200px;
  }
 
 blockquote {
-	border-left: 2px solid #D3D3D3;
-	font-size:30px;
-	color: blue;
-	padding-left:10px ;
+border-left: 2px solid #D3D3D3;
+font-size:30px;
+color: blue;
+padding-left:10px ;
 }
 
 .bottom-button {
-	width: 300px;
+width: 300px;
 }
 
  button {
  	background-color:#a3b3bf;
  	color:white;
-	border:none;
-	margin-left:10px;
+border:none;
+margin-left:10px;
  }
 
  button:hover {
-	background-color: #106db3;
-	height:35px;
-	width:175px;
-	color:white;
+background-color: #106db3;
+height:35px;
+width:175px;
+color:white;
 } 
 
 .comments-button {
-	float:left;
-	height: 35px;
-	width: 175px;
-	margin-left: 0px;
-	
+float:left;
+height: 35px;
+width: 175px;
+margin-left: 0px;
 }
 
 .comments-image {
 
-	float: left;
-	background-color: #5e686f;
-	width: 18px;
-	padding: 9px;
-	margin: -5px;
-	border:none;
+float: left;
+background-color: #5e686f;
+width: 18px;
+padding: 9px;
+margin: -5px;
+border:none;
 
 }
 
 .comments-image:hover {
-	background-color:#083452;
+background-color:#083452;
 }
 
 .read-later-button {
-	float: left;
-	height: 35px;
-	width: 175px;
+float: left;
+height: 35px;
+width: 175px;
 
 }
 
@@ -168,75 +175,84 @@ border: none;
 }
 
 .read-later-image:hover {
-	background-color:#083452;
+background-color:#083452;
 }
 
 .share-button {
-	float: left;
-	height:35px;
-	width: 175px;
+float: left;
+height:35px;
+width: 175px;
 }
 
 .share-image {
-	float: left;
-	background-color: #5e686f;
-	width: 19px;
-	padding: 10px;
-	margin: -5px;
-	border: none;
+float: left;
+background-color: #5e686f;
+width: 19px;
+padding: 10px;
+margin: -5px;
+border: none;
 
 }
 
 .share-image:hover {
-	background-color:#083452;
-
+background-color:#083452;
 }
 
-.main-text {
-	width:600px;
-	height: 600px;;
-	float: left;
-	margin-left:100px;
-}
+
 
 /*****SIDE BAR******/
 
 .side-bar {
-	width:400px;
-	height: 600px;
-	float:right;
-	margin-right:150px;
-	margin-top:50px;
+width:400px;
+height: 600px;
+float:right;
+margin-right:40px;
+margin-top:50px;
 }
 
 .contact {
-	margin-top:33.5px;
-	text-align: center;
+margin-top:33.5px;
+text-align: center;
 }
 
 .anne-marie {
-	color:#106db3;
-	font-size: 20px;
+color:#106db3;
+font-size: 20px;
 }
 
 a.twitter:link {
-	color:#083452
+color:#083452
 }
 
 a.facebook:link {
-	color:#083452;
+color:#083452;
 }
 
 a.facebook:link {
-	color: #083452
+color: #083452
 }
 
 .side-bar-image-caption {
-	margin: 70px 30px 50px 60px;
-	clear:both;
+margin: 70px 30px 50px 60px;
 }
 
 .side-bar-link {
-	float:right;
-	margin-right:30px;
+float:right;
+margin-right:30px;
+}
+
+.sidebar-text {
+margin-top:80px;
+margin-left:60px;
+margin-right:60px;
+}
+
+.sidebar-heading {
+color:#106db3;
+font-size: 20px;
+font-family: 'Oswald', sans-serif;
+}
+
+.sidebar-paragraph {
+margin:0px;
 }
