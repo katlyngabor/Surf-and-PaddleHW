@@ -65,10 +65,11 @@ height: 200px;
 
 #main-body {
  	width: 1000px;
- 	height:900px;
+ 	height:1000px;
  	margin-left: 125px;
  	margin-right: 20px;
  	font-family: 'PT Sans', sans-serif;
+ 	border: 2px solid red;
  }
 
  h1 {
@@ -104,10 +105,97 @@ height: 200px;
  	clear: both;
  }
 
+blockquote {
+	border-left: 2px solid #D3D3D3;
+	font-size:30px;
+	color: blue;
+	padding-left:10px ;
+}
+
+.bottom-button {
+	width: 300px;
+}
+
+ 
+ button {
+ 	background-color:#a3b3bf;
+ 	color:white;
+	border:none;
+ }
+
+ button:hover {
+	background-color: #106db3;
+	height:35px;
+	width:175px;
+	color:white;
+} 
+
+.comments-button {
+	height: 35px;
+	width: 175px;
+	
+}
+
+.comments-image {
+
+	float: left;
+	background-color: #5e686f;
+	width: 18px;
+	padding: 9px;
+	margin: -5px;
+	border:none;
+
+}
+
+.comments-image:hover {
+	background-color:#083452;
+}
+
+.read-later-button {
+	float: left;
+	height: 35px;
+	width: 175px;
+
+}
+
+.read-later-image {
+float: left;
+background-color: #5e686f;
+width: 19px;
+padding: 10px;
+margin: -5px;
+border: none;
+
+}
+
+.read-later-image:hover {
+	background-color:#083452;
+}
+
+.share-button {
+	float: left;
+	height:35px;
+	width: 175px;
+}
+
+.share-image {
+	float: left;
+	background-color: #5e686f;
+	width: 19px;
+	padding: 10px;
+	margin: -5px;
+	border: none;
+
+}
+
+.share-image:hover {
+	background-color:#083452;
+
+}
+
 .main-text {
 	width:600px;
-	height: 600px;
-	background-color:red;
+	height: 600px;;
 	float: left;
 }
 
