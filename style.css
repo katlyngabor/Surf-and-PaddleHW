@@ -231,6 +231,12 @@ a.facebook:link {
 	color: #083452
 }
 
-.side-bar-image {
+.side-bar-image-caption {
 	margin: 70px 30px 50px 60px;
+	clear:both;
+}
+
+.side-bar-link {
+	float:right;
+	margin-right:30px;
 }
