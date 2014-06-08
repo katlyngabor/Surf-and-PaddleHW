@@ -297,3 +297,25 @@ padding-bottom: 30px;
 .liquor-image {
 	float:left;
 }
+
+.image-holder {
+    display:inline-block;
+    position: relative;
+    float:left;
+}
+.image-holder:after {
+    content:'';
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background: #3e82b3;
+    opacity: 0.6;
+}
+
+.image-holder:hover:after {
+    opacity: 0;
+
