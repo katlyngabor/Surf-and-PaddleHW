@@ -256,6 +256,13 @@ font-family: 'Oswald', sans-serif;
 margin:0px;
 }
 
+
+
+/***FOOTER***/
+
+
+
+
 footer {
 width: 1300px;
 clear: both;
@@ -276,17 +283,17 @@ padding-bottom: 30px;
 }
 
 .surfer-image {
-	margin: 0;
+	float:left;
 }
 
 .beer-image {
-	margin: 0;
+	float:left;
 }
 
 .zach-image {
-	margin: 0;
+	float:left;
 }
 
 .liquor-image {
-	margin: 0;
+	float:left;
 }
