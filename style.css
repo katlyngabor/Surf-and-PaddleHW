@@ -65,20 +65,20 @@ height: 200px;
  	font-family: 'PT Sans', sans-serif;
 	width: 1300px;
 	margin: 0 auto;
- 
  }
 
 .main-text {
 width:600px;
-height: 600px;;
 float: left;
 margin-left:100px;
 }
 
  h1 {
- 	font-size:50px;
+ 	font-size:60px;
  	margin:5px;
  	margin-top:50px;
+ 	font-family: 'Oswald', sans-serif;
+ 	color:#083452;
  }
 
  .tiny-headshot {
@@ -123,8 +123,8 @@ width: 300px;
  button {
  	background-color:#a3b3bf;
  	color:white;
-border:none;
-margin-left:10px;
+	border:none;
+	margin-left:10px;
  }
 
  button:hover {
@@ -252,11 +252,41 @@ font-size: 20px;
 font-family: 'Oswald', sans-serif;
 }
 
-footer {
-	width: 800px;
-	clear:both;
-}
-
 .sidebar-paragraph {
 margin:0px;
+}
+
+footer {
+width: 1300px;
+clear: both;
+float: left;
+margin-top: 85px;
+padding-top: 30px;
+border-top: 2px solid #a3b3bf;
+}
+
+.footer-title {
+float: left;
+text-align: center;
+width: 1300px;
+color:#083452;
+font-size: 60px;
+font-family: 'Oswald', sans-serif;
+padding-bottom: 30px;
+}
+
+.surfer-image {
+	margin: 0;
+}
+
+.beer-image {
+	margin: 0;
+}
+
+.zach-image {
+	margin: 0;
+}
+
+.liquor-image {
+	margin: 0;
 }
