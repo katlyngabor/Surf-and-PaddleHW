@@ -33,11 +33,23 @@ font-family: 'Oswald', sans-serif;
 }
  .search-text {
  	display: inline-block;
+ 	text-decoration:none;
+		color: #7a91a1;
 }
 
  .about-text {
  	display: inline-block;
  	margin-right: 10px;
+ }
+
+ a.about-link {
+ 	text-decoration:none;
+	color: #083452;
+ }
+
+ a.search-link {
+ 	text-decoration:none;
+	color: #083452;
  }
 
 #titleText {
@@ -84,33 +96,33 @@ margin-left:100px;
  	margin-left: 8px;
  }
 
+
 .blogger-name {
 font-family: 'PT Sans', sans-serif;
-font-size: 16px;
-float:left;
-margin-top: 8px;
-margin-left: 12px;
- }
-
+font-size: 12px;
+float: left;
+margin-top: 4px;
+margin-left: 5px;
+}
  .post-details {
- 	font-size: 12px;
- 	float:left;
- 	margin-top:12px;
- 	margin-left: 8px;
+	font-size: 12px;
+	float: left;
+	margin-top: 4px;
+	margin-left: 5px;
 
  }
 
  p {
  	font-size: 15px;
- 	margin-top:20px;
+ 	padding-top:40px;
  	clear: both;
  }
 
 blockquote {
 border-left: 2px solid #D3D3D3;
 font-size:30px;
-color: blue;
-padding-left:10px ;
+color: #106db3;
+padding-left:10px;
 }
 
 .bottom-button {
@@ -317,45 +329,73 @@ padding-bottom: 30px;
    opacity: 0;
   }
 
+  /***   #container:hover > #cube{
+  background-color: green;
+  opacity: .25;
+  color: white;
+}
+#container:hover > #cube2{
+  background-color: black;
+/*  opacity: .25;*/
+ 
+
 .footer-nav-bar {
 	clear:both;
 	background-color:#083452;
-	float:left;  
-	width:1300px;                                                                 ;
+	float: left; 
+	width:1300px;
+	padding: 30px; 
+	font-family: 'PT Sans', sans-serif;                                                              ;
 }
 
 .copyright-info {
-	width: 1300px;
-	color: #5e686f;
+	width: 400px;
+	color:  #7a91a1;
 	font-family:'PT Sans', sans-serif;
 	font-size: 10px;
-	margin-left: 160px;
+	float:left;
+	margin-left: 200px;
+}
+
+.ironyard-logo {
+	width:40px;
 }
 
 .nav-bar-links {
 	width:300px;
 	float:right;
+	font-family:'PT Sans', sans-serif;
+	font-size: 10px;
+	margin-right:100px;
 }
 
 .nav-item-one {
 		text-decoration:none;
-		color: gray;
+		color: #7a91a1;
+		border-right: 1px solid #7a91a1;
+		padding:5px;
 	}
 
 .nav-item-two {
 		text-decoration:none;
-		color: gray;
+		color: #7a91a1;
+		border-right: 1px solid #7a91a1;
+		padding:5px;
 	}
 
 .nav-item-three {
 		text-decoration:none;
-		color: gray;
+		color: #7a91a1;
+		border-right: 1px solid #7a91a1;
+		padding:5px;
 	}
 
 .nav-item-four {
 		text-decoration:none;
-		color: gray;
+		color: #7a91a1;
+		padding-left:5px;
 	}
+
 
 
 
