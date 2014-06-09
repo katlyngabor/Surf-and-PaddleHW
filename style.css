@@ -103,12 +103,14 @@ font-size: 12px;
 float: left;
 margin-top: 4px;
 margin-left: 5px;
+color:#106db3;
 }
  .post-details {
 	font-size: 12px;
 	float: left;
 	margin-top: 4px;
 	margin-left: 5px;
+	color:#7a91a1;
 
  }
 
@@ -228,16 +230,19 @@ color:#106db3;
 font-size: 20px;
 }
 
-a.twitter:link {
-color:#083452
+a.twitter {
+color:#7a91a1;
+text-decoration: none;
 }
 
-a.facebook:link {
-color:#083452;
+a.facebook {
+color:#7a91a1;
+text-decoration: none;
 }
 
-a.facebook:link {
-color: #083452
+a.instagram {
+color: #7a91a1;
+text-decoration: none;
 }
 
 .side-bar-image-caption {
@@ -247,6 +252,7 @@ margin: 70px 30px 50px 60px;
 .side-bar-link {
 float:right;
 margin-right:30px;
+color:#7a91a1;
 }
 
 .sidebar-text {
