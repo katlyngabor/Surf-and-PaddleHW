@@ -12,22 +12,24 @@ margin-top: 25px;
 
 .logo-text {
 float:left;
-color: gray;
-margin-left: 15px;
+color:  #083452;
+margin-left: 10px;
 }
 
 img.logo-image {
 float: left;
-margin-left: 100px;
+margin-left: 230px;
 margin-top: -14px;
+width:30px;
 }
 
 #header-links {
-color: gray;
+color:  #083452;
 width: 186px;
 height: 38px;
 float: right;
 margin-right:100px;
+font-family: 'Oswald', sans-serif;
 }
  .search-text {
  	display: inline-block;
@@ -37,11 +39,6 @@ margin-right:100px;
  	display: inline-block;
  	margin-right: 10px;
  }
-
-.search-icon {
-float:right;
-margin-right: 20px;
-}
 
 #titleText {
 font-family: 'PT Sans', sans-serif;
@@ -299,23 +296,66 @@ padding-bottom: 30px;
 }
 
 .image-holder {
-    display:inline-block;
-    position: relative;
-    float:left;
+   display:inline-block;
+   position: relative;
+   float:left;
 }
 .image-holder:after {
-    content:'';
-    top: 0;
-    left: 0;
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-    display: block;
-    position: absolute;
-    background: #3e82b3;
-    opacity: 0.6;
+   content:'';
+   top: 0;
+   left: 0;
+   z-index: 10;
+   width: 100%;
+   height: 100%;
+   display: block;
+   position: absolute;
+   background: #3e82b3;
+   opacity: 0.6;
 }
 
 .image-holder:hover:after {
-    opacity: 0;
+   opacity: 0;
+  }
+
+.footer-nav-bar {
+	clear:both;
+	background-color:#083452;
+	float:left;  
+	width:1300px;                                                                 ;
+}
+
+.copyright-info {
+	width: 1300px;
+	color: #5e686f;
+	font-family:'PT Sans', sans-serif;
+	font-size: 10px;
+	margin-left: 160px;
+}
+
+.nav-bar-links {
+	width:300px;
+	float:right;
+}
+
+.nav-item-one {
+		text-decoration:none;
+		color: gray;
+	}
+
+.nav-item-two {
+		text-decoration:none;
+		color: gray;
+	}
+
+.nav-item-three {
+		text-decoration:none;
+		color: gray;
+	}
+
+.nav-item-four {
+		text-decoration:none;
+		color: gray;
+	}
+
+
 
