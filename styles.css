@@ -255,6 +255,8 @@ footer {
   position: relative;
   float: left; }
 
+  
+
 .image-holder:after {
   content: '';
   top: 0;

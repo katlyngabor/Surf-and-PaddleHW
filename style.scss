@@ -298,6 +298,7 @@ float: left;
 margin-top: 85px;
 padding-top: 30px;
 border-top: 2px solid $colorbutton;
+position:relative
 }
 
 .footer-title {
@@ -310,27 +311,13 @@ font-family: 'Oswald', sans-serif;
 padding-bottom: 30px;
 }
 
-.surfer-image {
-	float:left;
-}
-
-.beer-image {
-	float:left;
-}
-
-.zach-image {
-	float:left;
-}
-
-.liquor-image {
-	float:left;
-}
 
 .image-holder {
    display:inline-block;
    position: relative;
    float:left;
 }
+
 .image-holder:after {
    content:'';
    top: 0;
