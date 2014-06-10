@@ -5,6 +5,11 @@ $colorlightblue:#106db3;
 $colorbuttongray: #5e686f;
 $colorbutton:#a3b3bf;
 
+@mixin footer-stuff {
+font-family:'PT Sans', sans-serif;
+float:left;
+}
+
 
 #wrapperHeader {
  width:100%;
@@ -356,19 +361,18 @@ padding-bottom: 30px;
 .footer-nav-bar {
 	clear:both;
 	background-color:$colordarkblue;
-	float: left; 
 	width:1300px;
 	padding: 30px; 
-	font-family: 'PT Sans', sans-serif;                                                              ;
+	@include footer-stuff;
+                                                              ;
 }
 
 .copyright-info {
 	width: 400px;
 	color:  $colorgray;
-	font-family:'PT Sans', sans-serif;
 	font-size: 10px;
-	float:left;
 	margin-left: 200px;
+	@include footer-stuff;
 }
 
 .ironyard-logo {
