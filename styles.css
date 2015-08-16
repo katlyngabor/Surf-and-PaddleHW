@@ -1,7 +1,7 @@
 #wrapperHeader {
   width: 100%;
   height: 400px;
-  background: url(images/header.jpg); }
+  background: url('app/images/header.jpg'); }
 
 #company-info {
   float: left;
@@ -255,7 +255,7 @@ footer {
   position: relative;
   float: left; }
 
-  
+
 
 .image-holder:after {
   content: '';
@@ -328,4 +328,3 @@ footer {
   text-decoration: none;
   color: #7a91a1;
   padding-left: 5px; }
-
